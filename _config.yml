@@ -1,0 +1,54 @@
+# Site Settings
+title:        "Marcelo Alves"
+email:        "hello@marceloalves.com"
+description:  "Notes and musings from a web developer in Central California"
+baseurl: 			""
+url: 					"/"
+logourl: 			"/assets/img/marceloalves/profile.jpg"
+fa-logo: 			"fa-terminal"
+paginate: 		5
+
+
+# Author Settings
+author_name:  "Marcelo Alves"
+author_url:   "http://marceloalves.com"
+author_bio:   "Web developer living in Central California. Working with Ruby/Rails, Javascript, and dabbling in Elixir. Always searching for solutions that need problems."
+author_email: "hello@marceloalves.com"
+author_image: "/assets/img/marceloalves/profile.jpg"
+
+
+# Social Settings
+twitter_url: 		"http://twitter.com/celo_fett"
+facebook_url:   "https://www.facebook.com/selfmadecelo"
+github_url:  		"http://github.com/marceloalves"
+youtube_url:
+dribbble_url:
+googleplus_url:
+instagram_url:  "http://instagram.com/marceloalves"
+pinterest_url:
+linkedin_url:		"http://linkedin.com/in/selfmadecelo"
+
+
+# Theme Settings
+theme_disqus_shortname: 	"marceloalves"
+theme_google_comments: 		false
+theme_analytics_id: 		  "UA-3493447-8"
+theme_analytics_domain: 	"marceloalves.com"
+theme_reading_time: 		  true
+theme_autoload_comments:  true
+theme_always_show_nav: 		true
+
+
+# SASS Settings
+# DO NOT MODIFY
+sass:
+ sass_dir: "assets/css/"
+ style:    :compressed
+
+
+# Build Settings
+markdown: 	kramdown
+permalink:  pretty
+gems:
+  - jekyll-paginate
+  - jemoji
