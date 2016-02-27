@@ -31,7 +31,7 @@ layout: default
     <hr>
 </div>
 
-<div id="cover" class="cover {% if page.featured == true %} featured {% endif %}">
+<div id="cover" class="cover {% if page.banner_image != "" %} displayed {% endif %} {% if page.featured == true %} featured {% endif %}">
     <div class="background" style="background-image:url('{{ page.banner_image }}');"></div>
     <header class="wrapper">
         <h2>

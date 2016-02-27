@@ -25,6 +25,9 @@
 		background-size:cover;
 		background-position:fixed;
 	}
+	&.displayed{
+		display:block;
+	}
 	&.featured{
 		display:block;
 	}
@@ -277,7 +280,7 @@
 				}
 			}
 		}
-	
+
 		.share li{
 			float:left;
 			margin:0 15px 15px 0;
@@ -288,7 +291,7 @@
 	.comments{
 
 		display:none;
-	
+
 		.readmore{
 			margin:20px 0 30px;
 		}
@@ -392,4 +395,3 @@
 		width:100% !important;
 	}
 }
-

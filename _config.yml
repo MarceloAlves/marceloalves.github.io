@@ -52,3 +52,4 @@ permalink:  pretty
 gems:
   - jekyll-paginate
   - jemoji
+  - jekyll-gist

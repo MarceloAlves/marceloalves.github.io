@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "find_by vs find_by!"
+date:   2015-02-26 17:00:00
+categories: notes ruby
+banner_image: ""
+featured: false
+comments: true
+---
+
+`.find_by` will return a `nil` when record isn't found. `.find_by!` will return `ActiveRecord::RecordNotFound`.
+
+<!--more-->
+
+Recently in a project, `.find_by()` was being used to find records referenced by a [GUID](https://en.wikipedia.org/wiki/Globally_unique_identifier) rather than an `id`. If a record couldn't be found the server would throw a `500` error. We'd rather have `404` be shown so that's where [`.find_by!()`](http://api.rubyonrails.org/classes/ActiveRecord/FinderMethods.html#method-i-find_by-21) comes in.
+
+`.find_by!` will return an `ActiveRecord::RecordNotFound` exception with a status code of `404` rendering the 404 template instead of the error template.
