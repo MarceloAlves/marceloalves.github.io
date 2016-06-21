@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Create Images from PDF's Using Lambda"
-date:   2015-02-26 17:00:00
+date:   2016-02-26 17:00:00
 categories: tutorials lambda
 banner_image: "/assets/img/header/2015-02-26-pdf_to_image_thumbnail_using_lambda.jpg"
 featured: true
