@@ -24,7 +24,7 @@ $(document).ready(function(){
 However when using Bootstrap, dropdown links stop working. Adding something like this seems to solve the issue:
 
 ```javascript
-if $(e.target).hasClass('dropdown-toggle') {
+if($(e.target).hasClass('dropdown-toggle')) {
   return;
 }
 ```
